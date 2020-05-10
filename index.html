@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>My New Site on Bootstrap</title>
+
+    <!-- Google Font (Roboto) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container ">
+            <a class="navbar-brand" href="#">My Bootstrap Site</a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info-one">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="header-content-left">
+                        <img src="img/image1.png" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="header-content-right">
+                        <h1 class="display-4" >Lorem ipsum dolor</h1>
+                        <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel natus aperiam adipisci delectus rem similique eos animi porro ab, iure sed voluptate! Omnis pariatur veritatis commodi incidunt id atque ducimus.</p>
+                        <a href="#" class="btn btn-lg btn-outline-secondary mt-2 header-btn"> Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Testimonial -->
+    <section id="testimonial">
+        <div class="container">
+            <p class="mb-2 h3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos numquam fugiat provident, dolores quis quasi maiores quo consequatur eligendi at laboriosam, asperiores ducimus modi ut iure in aliquid suscipit nesciunt.</p>
+            <p class="h5">- Sergio Ramirez</p>
+        </div>
+    </section>
+
+    <!-- Info one -->
+    <section id="info-one">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="info-left">
+                        <img src="img/image2.png" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="col-md-6 my-auto">
+                    <div class="info-rigth">
+                        <h2>Lorem ipsum dolor sit</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat suscipit, magni quibusdam expedita dolor,
+                            voluptate ad perferendis reiciendis corrupti unde cupiditate nostrum ullam repudiandae velit a repellendus
+                            labore aperiam?</p>
+                        <a href="#" class="btn btn-outline-secondary btn-lg ">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info two -->
+    <section id="info-two">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <h2>Lorem, ipsum dolor sit</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ab cumque voluptates adipisci rem aliquam praesentium voluptatibus nobis unde eaque, incidunt optio reprehenderit dignissimos iste qui, nulla nesciunt accusamus sunt!
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Lorem, ipsum dolor sit</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ab cumque voluptates adipisci rem aliquam praesentium voluptatibus nobis unde eaque, incidunt optio reprehenderit dignissimos iste qui, nulla nesciunt accusamus sunt!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <form class="card my-5">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Mail" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" id="message cols="30" rows="10" placeholder="Messasge" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-outline-secondary btn-block form-control">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- scripts -->
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.navbar', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+        
+        sr.reveal('.header-content-left', {
+            duration: 2000,
+            origin: 'top',
+            distance: '300px'
+        });
+        
+        sr.reveal('.header-content-right', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px'
+        });
+        
+        sr.reveal('.header-btn', {
+            duration: 2000,
+            origin: 'bottom',
+            delay: 1000
+        });
+        
+        sr.reveal('#testimonial', {
+            duration: 2000,
+            origin: 'left',
+            distance: '300px',
+            viewFactor: 0.2
+        });
+    </script>
+
+</body>
+
+</html>
